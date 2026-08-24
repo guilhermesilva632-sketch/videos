@@ -30,7 +30,7 @@ export const cinematicSchema = z.object({
 export type CinematicProps = z.infer<typeof cinematicSchema>;
 
 export const defaultCinematicProps: CinematicProps = {
-  imageSrc: "paulista.jpg",
+  imageSrc: "paulista.png",
   zoomStart: 1.12,
   zoomEnd: 1.32,
   panX: 0.05,
